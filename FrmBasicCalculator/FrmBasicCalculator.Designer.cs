@@ -93,10 +93,11 @@
             this.button1.Text = "Compute";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // FrmBasicCalculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::FrmBasicCalculator.Properties.Resources._1233;
             this.ClientSize = new System.Drawing.Size(630, 500);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.cbOperation);
@@ -104,7 +105,7 @@
             this.Controls.Add(this.tbInput2);
             this.Controls.Add(this.tbInput1);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "FrmBasicCalculator";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
