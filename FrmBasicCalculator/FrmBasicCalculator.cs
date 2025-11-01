@@ -77,10 +77,10 @@ namespace FrmBasicCalculator
                         result = Convert.ToString(BasicComputation.Subtraction(num1, num2));
                         break;
                     case "*":
-                        result = Convert.ToString(BasicComputation.Division(num1, num2));
+                        result = Convert.ToString(BasicComputation.Multiplication(num1, num2));
                         break;
                     case "/":
-                        result = Convert.ToString(BasicComputation.Multiplication(num1, num2));
+                        result = Convert.ToString(BasicComputation.Division(num1, num2));
                         break;
                 }
 
