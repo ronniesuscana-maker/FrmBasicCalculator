@@ -72,7 +72,6 @@
             this.rtbTotal.Size = new System.Drawing.Size(401, 100);
             this.rtbTotal.TabIndex = 3;
             this.rtbTotal.Text = "";
-            this.rtbTotal.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // cbOperation
             // 
@@ -92,6 +91,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "Compute";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // FrmBasicCalculator
             // 
@@ -107,7 +107,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmBasicCalculator";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.FrmBasicCalculator_Load_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 
